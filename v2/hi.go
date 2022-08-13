@@ -7,6 +7,7 @@ import (
 
 // Hi returns a friendly greeting
 func Hi(name, lang string) (string, error) {
+	fmt.Println("hello anyway")
 	switch lang {
 	case "en":
 		return fmt.Sprintf("Hi, %s!", name), nil
@@ -19,4 +20,5 @@ func Hi(name, lang string) (string, error) {
 	default:
 		return "", errors.New("unknown language")
 	}
+
 }
