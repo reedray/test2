@@ -4,5 +4,5 @@ import "fmt"
 
 // Hi returns a friendly greeting
 func Hi(name string) string {
-	return fmt.Sprintf("Hi,i am  %s", name)
+	return fmt.Sprintf("Hi,i amV3  %s", name)
 }
